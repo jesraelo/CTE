@@ -58,7 +58,7 @@ AS
     TheDate          = CONVERT(date,       d),
     TheDay           = DATEPART(DAY,       d),
     TheDayName       = DATENAME(WEEKDAY,   d),
-	TheDayName2Chars = left(DATENAME(WEEKDAY,   d),2),
+    TheDayName2Chars = left(DATENAME(WEEKDAY,   d),2),
     TheWeek          = DATEPART(WEEK,      d),
     TheISOWeek       = DATEPART(ISO_WEEK,  d),
     TheDayOfWeek     = DATEPART(WEEKDAY,   d),
