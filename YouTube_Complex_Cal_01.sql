@@ -4,18 +4,18 @@
 
 /* ===========================================================================================
 In this session: 
-	> Drop <table> if exists <#tableName>
-	> set nocount on   -- reduce noise and traffic
-	> Variable declarations
-	> We have covered various types of temp tables, so in here
-	> Various Date and Time functions and manipulations
-	> CTE, standard, recursive w/UNION ALL (must have ALL for recursive CTE), and the calls to
+	> Drop <table> if exists <#tableName>.
+	> set nocount on   -- reduce noise and traffic.
+	> Variable declarations.
+	> We have covered various types of temp tables, so in here.
+	> Various Date and Time functions and manipulations.
+	> CTE, standard, recursive w/UNION ALL (must have ALL for recursive CTE), and the calls to.
 	> In spite of many developers' opinion; there is still a need for cursors
 		> 3 levels of cursors:
 			> Week Number
 			> Week Day
 			> Day to process
-	> Optionally, create a stored procedure
+	> Optionally, create a stored procedure.
 
 Segments:
 	> declarations, and input parameters
